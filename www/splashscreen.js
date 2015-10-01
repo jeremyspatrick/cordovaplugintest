@@ -23,10 +23,10 @@ var exec = require('cordova/exec');
 
 var splashscreen = {
     show:function() {
-        exec(null, null, "AlertMe", "show", []);
+        exec(null, null, "SplashScreen", "show", []);
     },
     hide:function() {
-        exec(null, null, "AlertMe", "hide", []);
+        exec(null, null, "SplashScreen", "hide", []);
     }
 };
 
