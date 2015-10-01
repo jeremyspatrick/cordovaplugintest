@@ -36,13 +36,13 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
 		    <feature name="SplashScreen">
-			    <param name="ios-package" value="CDVSplashScreen"/>
+			    <param name="ios-package" value="CDVAlertMe"/>
 			    <param name="onload" value="true"/>
 		    </feature>
         </config-file>
 
-        <header-file src="src/ios/CDVSplashScreen.h" />
-        <source-file src="src/ios/CDVSplashScreen.m" />
+        <header-file src="src/ios/CDVAlertMe.h" />
+        <source-file src="src/ios/CDVAlertMe.m" />
 
 	    <framework src="CoreGraphics.framework" />
     </platform>
