@@ -23,7 +23,7 @@ var exec = require('cordova/exec');
 
 var alertme = {
     alert:function() {
-        exec(null, null, "SplashScreen", "alert", []);
+        exec(null, null, "AlertMe", "alert", []);
     }
 };
 
