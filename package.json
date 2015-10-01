@@ -1,24 +1,17 @@
 {
-  "name": "cordova-plugin-splashscreen",
+  "name": "cordova-plugin-splashscreentest",
   "version": "2.1.1-dev",
   "description": "Cordova Splashscreen Plugin",
   "cordova": {
     "id": "cordova-plugin-splashscreen",
     "platforms": [
       "android",
-      "amazon-fireos",
-      "ubuntu",
-      "ios",
-      "blackberry10",
-      "wp8",
-      "windows8",
-      "windows",
-      "tizen"
+      "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-splashscreen"
+    "url": "https://github.com/jeremyspatrick/cordovaplugintest"
   },
   "keywords": [
     "cordova",

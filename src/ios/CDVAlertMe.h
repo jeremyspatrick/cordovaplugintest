@@ -20,24 +20,13 @@
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
 
-typedef struct {
-    BOOL iPhone;
-    BOOL iPad;
-    BOOL iPhone5;
-    BOOL iPhone6;
-    BOOL iPhone6Plus;
-    BOOL retina;
-    
-} CDV_iOSDevice;
 
-@interface CDVSplashScreen : CDVPlugin {
-    UIActivityIndicatorView* _activityView;
-    UIImageView* _imageView;
-    NSString* _curImageName;
-    BOOL _visible;
+
+@interface CDVAlertMe : CDVPlugin {
+
 }
 
-- (void)show:(CDVInvokedUrlCommand*)command;
-- (void)hide:(CDVInvokedUrlCommand*)command;
+- (void)alert:(CDVInvokedUrlCommand*)command;
+
 
 @end

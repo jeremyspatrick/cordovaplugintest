@@ -14,14 +14,14 @@
         <engine name="cordova-android" version=">=3.6.0" /><!-- Requires CordovaPlugin.preferences -->
     </engines>
 
-    <js-module src="www/splashscreen.js" name="SplashScreen">
-        <clobbers target="jsplashscreen" />
+    <js-module src="www/AlertMe.js" name="AlertMe">
+        <clobbers target="jAlertMe" />
     </js-module>
 
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="SplashScreen">
+            <feature name="AlertMe">
                 <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
                 <param name="onload" value="true"/>
             </feature>
@@ -35,18 +35,16 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-		    <feature name="SplashScreen">
-			    <param name="ios-package" value="CDVSplashScreen"/>
+		    <feature name="AlertMe">
+			    <param name="ios-package" value="CDVAlertMe"/>
 			    <param name="onload" value="true"/>
 		    </feature>
         </config-file>
 
-        <header-file src="src/ios/CDVSplashScreen.h" />
-        <source-file src="src/ios/CDVSplashScreen.m" />
-        <header-file src="src/ios/CDVViewController+SplashScreen.h" />
-        <source-file src="src/ios/CDVViewController+SplashScreen.m" />
-
-	    <framework src="CoreGraphics.framework" />
+        <header-file src="src/ios/CDVAlertMe.h" />
+        <source-file src="src/ios/CDVAlertMe.m" />
+		
+	    <!--- <framework src="CoreGraphics.framework" /> --->
     </platform>
 
 </plugin>
