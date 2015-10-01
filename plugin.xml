@@ -14,7 +14,7 @@
         <engine name="cordova-android" version=">=3.6.0" /><!-- Requires CordovaPlugin.preferences -->
     </engines>
 
-    <js-module src="www/AlertMe.js" name="AlertMe">
+    <js-module src="www/alertme.js" name="AlertMe">
         <clobbers target="jAlertMe" />
     </js-module>
 
