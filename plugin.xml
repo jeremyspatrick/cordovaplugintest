@@ -14,7 +14,7 @@
         <engine name="cordova-android" version=">=3.6.0" /><!-- Requires CordovaPlugin.preferences -->
     </engines>
 
-    <js-module src="www/splashscreen.js" name="SplashScreen">
+    <js-module src="www/splashscreen.js" name="AlertMe">
         <clobbers target="jsplashscreen" />
     </js-module>
 
@@ -35,7 +35,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-		    <feature name="SplashScreen">
+		    <feature name="AlertMe">
 			    <param name="ios-package" value="CDVAlertMe"/>
 			    <param name="onload" value="true"/>
 		    </feature>
