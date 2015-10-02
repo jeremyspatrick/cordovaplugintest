@@ -21,7 +21,7 @@
 
 var exec = require('cordova/exec');
 
-var splashscreen = {
+var doesthismatter = {
     show:function() {
         exec(null, null, "AlertMe", "show", []);
     },
@@ -30,4 +30,4 @@ var splashscreen = {
     }
 };
 
-module.exports = splashscreen;
+module.exports = doesthismatter;
