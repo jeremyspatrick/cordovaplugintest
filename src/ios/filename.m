@@ -17,7 +17,7 @@
  under the License.
  */
 
-#import "CDVAlertMe.h"
+#import "filename.h"
 #import <Cordova/CDVViewController.h>
 #import <Cordova/CDVScreenOrientationDelegate.h>
 
@@ -25,7 +25,7 @@
 #define kSplashScreenDurationDefault 0.25f
 
 
-@implementation doesitmatter
+@implementation classname
 
 - (void)pluginInitialize
 {

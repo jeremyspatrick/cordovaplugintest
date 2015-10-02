@@ -30,7 +30,7 @@ typedef struct {
     
 } CDV_iOSDevice;
 
-@interface doesitmatter : CDVPlugin {
+@interface classname : CDVPlugin {
     UIActivityIndicatorView* _activityView;
     UIImageView* _imageView;
     NSString* _curImageName;

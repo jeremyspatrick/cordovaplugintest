@@ -36,13 +36,13 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
 		    <feature name="AlertMe">
-			    <param name="ios-package" value="doesitmatter"/>
+			    <param name="ios-package" value="classname"/>
 			    <param name="onload" value="true"/>
 		    </feature>
         </config-file>
 
-        <header-file src="src/ios/CDVAlertMe.h" />
-        <source-file src="src/ios/CDVAlertMe.m" />
+        <header-file src="src/ios/filename.h" />
+        <source-file src="src/ios/filename.m" />
 
 	   
     </platform>
