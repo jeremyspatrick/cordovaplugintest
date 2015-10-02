@@ -21,13 +21,13 @@
 
 var exec = require('cordova/exec');
 
-var doesthismatter = {
+var localvariable = {
     show:function() {
-        exec(null, null, "AlertMe", "show", []);
+        exec(null, null, "exeCall", "classMethod1", []);
     },
     hide:function() {
-        exec(null, null, "AlertMe", "hide", []);
+        exec(null, null, "exeCall", "classMethod2", []);
     }
 };
 
-module.exports = doesthismatter;
+module.exports = localvariable;
