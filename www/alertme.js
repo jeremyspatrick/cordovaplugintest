@@ -23,10 +23,10 @@ var exec = require('cordova/exec');
 
 var localvariable = {
     show:function() {
-        exec(null, null, "exeCall", "show", []);
+        exec(null, null, "exeCall", "shows", []);
     },
     hide:function() {
-        exec(null, null, "exeCall", "hide", []);
+        exec(null, null, "exeCall", "hides", []);
     }
 };
 

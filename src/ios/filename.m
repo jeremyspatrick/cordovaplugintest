@@ -34,7 +34,7 @@
     //[self setVisible:YES];
 }
 
-- (void)show:(CDVInvokedUrlCommand*)command
+- (void)shows:(CDVInvokedUrlCommand*)command
 {
     UIAlertView *theAlert = [[UIAlertView alloc] initWithTitle:@"Title"
                                                  message:@"This is not the message."
@@ -44,7 +44,7 @@
 [theAlert show];
 }
 
-- (void)hide:(CDVInvokedUrlCommand*)command
+- (void)hides:(CDVInvokedUrlCommand*)command
 {
     UIAlertView *theAlert = [[UIAlertView alloc] initWithTitle:@"Title"
                                                  message:@"This is hiding."
