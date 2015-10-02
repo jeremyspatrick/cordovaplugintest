@@ -25,7 +25,7 @@
 #define kSplashScreenDurationDefault 0.25f
 
 
-@implementation CDVAlertMe
+@implementation doesitmatter
 
 - (void)pluginInitialize
 {
