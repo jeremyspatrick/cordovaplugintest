@@ -35,7 +35,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-		    <feature name="AlertMe">
+		    <feature name="exeCall">
 			    <param name="ios-package" value="classname"/>
 			    <param name="onload" value="true"/>
 		    </feature>
