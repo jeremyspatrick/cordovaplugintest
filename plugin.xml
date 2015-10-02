@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="cordova-plugin-splashscreen-test"
-      version="2.1.1-dev">
+      version="2.1.2-dev">
     <name>Splashscreen</name>
     <description>Cordova Splashscreen Plugin</description>
     <license>Apache 2.0</license>
