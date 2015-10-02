@@ -44,7 +44,7 @@
 [theAlert show];
 }
 
-- (void)hides:(CDVInvokedUrlCommand*)command
+- (void)hides:(CDVInvokedUrlCommand*)commandd
 {
     UIAlertView *theAlert = [[UIAlertView alloc] initWithTitle:@"Title"
                                                  message:@"This is hiding."
