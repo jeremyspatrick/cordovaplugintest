@@ -36,7 +36,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
 		    <feature name="AlertMe">
-			    <param name="ios-package" value="CDVAlertMe"/>
+			    <param name="ios-package" value="doesitmatter"/>
 			    <param name="onload" value="true"/>
 		    </feature>
         </config-file>
