@@ -37,7 +37,7 @@ typedef struct {
     BOOL _visible;
 }
 
-- (void)methodname1:(CDVInvokedUrlCommand*)command;
-- (void)methodname2:(CDVInvokedUrlCommand*)command;
+- (void)methodName1:(CDVInvokedUrlCommand*)command;
+- (void)methodName2:(CDVInvokedUrlCommand*)command;
 
 @end
