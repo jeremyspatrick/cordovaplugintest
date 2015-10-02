@@ -44,7 +44,7 @@
         <header-file src="src/ios/CDVAlertMe.h" />
         <source-file src="src/ios/CDVAlertMe.m" />
 
-	    <framework src="CoreGraphics.framework" />
+	   
     </platform>
 
 </plugin>
